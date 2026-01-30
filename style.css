@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.gender-group label {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.invalid {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.strength-indicator {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+#successMsg {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.success-content {
+  background: #e6ffe6;
+  padding: 15px;
+  border-radius: 5px;
+  color: green;
+}
+
+.success-icon {
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.col {
+  flex: 1;
+}
+
+.terms {
+  display: flex;
+}
+
+.terms input[type="checkbox"] {
+  width: 30px; /* removes default checkbox spacing */
+}

@@ -1,0 +1,953 @@
+{
+  "id": "13b7e84f-db71-4773-947b-a2aeff3e9eb5",
+  "version": "3.0",
+  "name": "New Project",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "7937a2b2-a6d6-4086-b391-01c0cb5e0b80",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "9fa0781e-fee3-4cd7-93eb-649c6f477fa2"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "9fa0781e-fee3-4cd7-93eb-649c6f477fa2",
+      "name": "New Test",
+      "commands": [
+        {
+          "id": "184acfd2-ba29-492a-95f4-eef6c647a1c6",
+          "command": "open",
+          "target": "http://127.0.0.1:5500/Intelligent%20Registration%20System/index.html",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=fname",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "105d7bfb-743d-476a-a568-d8af7e7a2349",
+          "targets": [
+            [
+              "id=fname",
+              "id"
+            ],
+            [
+              "css=#fname",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='fname'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=fname",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5f87bbe5-1fd1-44bd-b878-76d5d2108a99",
+          "targets": [
+            [
+              "id=fname",
+              "id"
+            ],
+            [
+              "css=#fname",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='fname'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=fname",
+          "value": "Mani",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "151314b1-ddd0-4915-944b-549ca556de16",
+          "targets": [
+            [
+              "id=fname",
+              "id"
+            ],
+            [
+              "css=#fname",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='fname'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=lname",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1f29bd6a-1034-4a76-8af5-556a6e74d915",
+          "targets": [
+            [
+              "id=lname",
+              "id"
+            ],
+            [
+              "css=#lname",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='lname'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=lname",
+          "value": "Mani",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "750aecab-2bf6-45d5-97d0-29db8b875074",
+          "targets": [
+            [
+              "id=lname",
+              "id"
+            ],
+            [
+              "css=#lname",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='lname'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div/div/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "938b1175-9584-499e-a6bb-247ef1d3df06",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "Test@1234",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bee6a714-1443-425e-a326-20a90a7049ac",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=phone",
+          "value": "123456",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "05c800ce-c26c-4b56-a2f2-63251a208206",
+          "targets": [
+            [
+              "id=phone",
+              "id"
+            ],
+            [
+              "css=#phone",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='phone'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=phone",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "27bf7e7f-4d14-4b32-b9f7-4bebceb07702",
+          "targets": [
+            [
+              "id=phone",
+              "id"
+            ],
+            [
+              "css=#phone",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='phone'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=phone",
+          "value": "123456887",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f436e102-231f-4dc9-9d8f-2153a84824c4",
+          "targets": [
+            [
+              "id=phone",
+              "id"
+            ],
+            [
+              "css=#phone",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='phone'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=phone",
+          "value": "1234568870",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bc4d3923-e6d4-40ec-927b-a23177a6c189",
+          "targets": [
+            [
+              "id=phone",
+              "id"
+            ],
+            [
+              "css=#phone",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='phone'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=age",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4258a342-0211-4235-9bd1-0f11556e4922",
+          "targets": [
+            [
+              "id=age",
+              "id"
+            ],
+            [
+              "css=#age",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='age'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[4]/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=age",
+          "value": "12",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "77c2ef9d-4995-4ae6-be98-5c048e323ecd",
+          "targets": [
+            [
+              "id=age",
+              "id"
+            ],
+            [
+              "css=#age",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='age'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[4]/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.checkbox-label:nth-child(1)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bef8dd45-6c74-4a28-81dc-486c4df9397b",
+          "targets": [
+            [
+              "css=.checkbox-label:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[4]/div/div[2]/div/label)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//label[contains(.,' Male')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=address",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "50d1da50-f6c3-4d43-93c1-379cb761af55",
+          "targets": [
+            [
+              "id=address",
+              "id"
+            ],
+            [
+              "css=#address",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='address'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[5]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=address",
+          "value": "hyderabad",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ee474f11-0d76-4773-bf23-507346670aac",
+          "targets": [
+            [
+              "id=address",
+              "id"
+            ],
+            [
+              "css=#address",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='address'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[5]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=country",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "cc9aca7e-94d2-4be4-9ae2-99f64efdd541",
+          "targets": [
+            [
+              "id=country",
+              "id"
+            ],
+            [
+              "css=#country",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='country'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[6]/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=country",
+          "value": "label=India",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ed50e228-4cf3-460d-9ad5-94ff3dbbf58c",
+          "targets": [
+            [
+              "id=country",
+              "id"
+            ],
+            [
+              "css=#country",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='country'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[6]/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=state",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "18ecda25-61c6-4895-b7e7-286ffd6b1929",
+          "targets": [
+            [
+              "id=state",
+              "id"
+            ],
+            [
+              "css=#state",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='state'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[7]/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=state",
+          "value": "label=Telangana",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "afcfcd21-ca52-45e4-a192-5cf7596b068e",
+          "targets": [
+            [
+              "id=state",
+              "id"
+            ],
+            [
+              "css=#state",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='state'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[7]/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=city",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f1f02cec-3bb6-4367-812c-93327a4dd463",
+          "targets": [
+            [
+              "id=city",
+              "id"
+            ],
+            [
+              "css=#city",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='city'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[8]/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=city",
+          "value": "label=Hyderabad",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "2243dc29-ed6e-4a3d-a8fa-e8c9c1293a1b",
+          "targets": [
+            [
+              "id=city",
+              "id"
+            ],
+            [
+              "css=#city",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='city'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[8]/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "51bebf5d-2af1-46a7-acf2-dcf180bde58a",
+          "targets": [
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[9]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=password",
+          "value": "Test@12344",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a5f4d7cd-5473-440f-96f5-0b06b972802c",
+          "targets": [
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[9]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=confirmPassword",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "93a35c17-00ff-4ab0-85ff-0940b3266a4c",
+          "targets": [
+            [
+              "id=confirmPassword",
+              "id"
+            ],
+            [
+              "css=#confirmPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='confirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[10]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=confirmPassword",
+          "value": "Test@1234",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "69c40a97-5e07-4155-a9e8-b37f38e55bb7",
+          "targets": [
+            [
+              "id=confirmPassword",
+              "id"
+            ],
+            [
+              "css=#confirmPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='confirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[10]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.form-group:nth-child(10) > label",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ae6125ac-ac3b-4cd3-afc2-71b7142b8fe3",
+          "targets": [
+            [
+              "css=.form-group:nth-child(10) > label",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[10]/label)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//label[contains(.,'Confirm Password *')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=confirmPassword",
+          "value": "Test@12344",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4bd40e4f-71d2-4536-b04b-582b8079c9b1",
+          "targets": [
+            [
+              "id=confirmPassword",
+              "id"
+            ],
+            [
+              "css=#confirmPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='confirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[10]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=body",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5324454b-e55b-4ab4-805a-4f89834d0738",
+          "targets": [
+            [
+              "css=body",
+              "css:finder"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=terms",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "26854fa0-5c9f-4b2f-897d-03297d25a0f9",
+          "targets": [
+            [
+              "id=terms",
+              "id"
+            ],
+            [
+              "css=#terms",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='terms'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[11]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submitBtn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6d91d784-ba58-4eb2-a385-690bf6f103c7",
+          "targets": [
+            [
+              "id=submitBtn",
+              "id"
+            ],
+            [
+              "css=#submitBtn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='submitBtn'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Register')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submitBtn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c330fa77-d146-44fc-af6a-d1f406b4dec7",
+          "targets": [
+            [
+              "id=submitBtn",
+              "id"
+            ],
+            [
+              "css=#submitBtn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='submitBtn'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Register')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=age",
+          "value": "18",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a8a28caa-c227-4175-9d66-47a99b3eff01",
+          "targets": [
+            [
+              "id=age",
+              "id"
+            ],
+            [
+              "css=#age",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='age'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/div[4]/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submitBtn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bd9d35de-fe7b-4a87-afc9-3782bd2d49e9",
+          "targets": [
+            [
+              "id=submitBtn",
+              "id"
+            ],
+            [
+              "css=#submitBtn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='submitBtn'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='regForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Register')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
